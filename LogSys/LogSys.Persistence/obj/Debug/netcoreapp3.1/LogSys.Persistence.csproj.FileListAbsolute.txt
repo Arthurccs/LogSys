@@ -10,3 +10,6 @@ C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcor
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.csproj.CopyComplete
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.dll
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Persistence.runtimeconfig.json
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Persistence.runtimeconfig.dev.json
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.genruntimeconfig.cache
