@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogSys.Domain\LogSys.Domain.csproj" />
+    <ProjectReference Include="..\LogSys.Persistence\LogSys.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

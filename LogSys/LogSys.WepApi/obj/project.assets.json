@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LogSys.Aplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LogSys.Domain": "1.0.0",
+          "LogSys.Persistence": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LogSys.Aplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogSys.Aplication.dll": {}
+        }
+      },
+      "LogSys.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/LogSys.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogSys.Domain.dll": {}
+        }
+      },
+      "LogSys.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "LogSys.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/LogSys.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LogSys.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogSys.Aplication/1.0.0": {
+      "type": "project",
+      "path": "../LogSys.Aplication/LogSys.Aplication.csproj",
+      "msbuildProject": "../LogSys.Aplication/LogSys.Aplication.csproj"
+    },
+    "LogSys.Domain/1.0.0": {
+      "type": "project",
+      "path": "../LogSys.Domain/LogSys.Domain.csproj",
+      "msbuildProject": "../LogSys.Domain/LogSys.Domain.csproj"
+    },
+    "LogSys.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../LogSys.Persistence/LogSys.Persistence.csproj",
+      "msbuildProject": "../LogSys.Persistence/LogSys.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "LogSys.Aplication >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\10061118\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.WepApi\\LogSys.WepApi.csproj",
+      "projectName": "LogSys.WepApi",
+      "projectPath": "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.WepApi\\LogSys.WepApi.csproj",
+      "packagesPath": "C:\\Users\\10061118\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.WepApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\10061118\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\NuGetDefaults_orig.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Users\\10061118\\NuGet": {},
+        "C:\\temp": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-3rdParties-External/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-3rdParties-GTO/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-DC-Releases/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-DC-Snapshots/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-DC/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-RnD-Releases/": {},
+        "https://nexusl1-AUS.gemalto.com/service/local/nuget/ICS-NuGet-RnD-Snapshots/": {},
+        "https://nexusl1-aus.gemalto.com/service/local/nuget/ICS-NuGet-RnD/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-3rdParties-External/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-3rdParties-GTO/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-DC-Releases/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-DC-Snapshots/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-DC/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-RnD-Releases/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-RnD-Snapshots/": {},
+        "https://nexusl1-emea.gemalto.com/service/local/nuget/ICS-NuGet-RnD/": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.Aplication\\LogSys.Aplication.csproj": {
+              "projectPath": "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.Aplication\\LogSys.Aplication.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
