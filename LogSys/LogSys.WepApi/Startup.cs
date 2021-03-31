@@ -35,8 +35,8 @@ namespace LogSys.WepApi
 			{
 				app.UseDeveloperExceptionPage();
 			}
-
-			app.UseHttpsRedirection();
+			//TODO: add security
+			//app.UseHttpsRedirection(); 
 
 			app.UseRouting();
 
