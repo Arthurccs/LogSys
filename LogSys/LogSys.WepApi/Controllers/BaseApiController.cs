@@ -4,7 +4,7 @@
 namespace LogSys.WepApi.Controllers
 {
 	[ApiController]
-	[Route("controller")]
+	[Route("api")]
 	public class BaseApiController : ControllerBase
 	{
 	}

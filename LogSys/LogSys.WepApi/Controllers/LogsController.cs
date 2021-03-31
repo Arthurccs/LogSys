@@ -2,7 +2,6 @@
 using LogSys.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,15 +18,17 @@ namespace LogSys.WepApi.Controllers
 		}
 
 		[HttpGet]
+		[Route("logs")]
+
 		public async Task<ActionResult<List<Log>>> GetLogs()
 		{
 			return await _context.Logs.ToListAsync();	
 		}
 
 		[HttpGet]
-		[Route("api/User/{userid}/GetReport")]
+		[Route("User/{userid}/GetReport/{from}/{to}")]
 
-		public int GetReport([FromBody]string userid, DateTime? from, DateTime? to)
+		public int GetReport([FromRoute]string userid, [FromRoute]string from, [FromRoute]string to)
 		{
 			return _context.Logs.Where(x => x.Userid == userid).Count();
 		}
