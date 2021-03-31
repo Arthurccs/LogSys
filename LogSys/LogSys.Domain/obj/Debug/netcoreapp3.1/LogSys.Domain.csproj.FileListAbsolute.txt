@@ -1,0 +1,9 @@
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\bin\Debug\netcoreapp3.1\LogSys.Domain.deps.json
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\bin\Debug\netcoreapp3.1\LogSys.Domain.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\bin\Debug\netcoreapp3.1\LogSys.Domain.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.csprojAssemblyReference.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.csproj.CoreCompileInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.AssemblyInfoInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.AssemblyInfo.cs
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Domain\obj\Debug\netcoreapp3.1\LogSys.Domain.pdb

@@ -1,0 +1,12 @@
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Persistence.deps.json
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Persistence.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Persistence.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Domain.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\bin\Debug\netcoreapp3.1\LogSys.Domain.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.csprojAssemblyReference.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.AssemblyInfoInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.AssemblyInfo.cs
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.csproj.CopyComplete
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Persistence\obj\Debug\netcoreapp3.1\LogSys.Persistence.pdb

@@ -1,0 +1,14 @@
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Aplication.deps.json
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Aplication.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Aplication.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Domain.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Persistence.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Domain.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\bin\Debug\netcoreapp3.1\LogSys.Persistence.pdb
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.csprojAssemblyReference.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.AssemblyInfoInputs.cache
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.AssemblyInfo.cs
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.csproj.CopyComplete
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.Aplication\obj\Debug\netcoreapp3.1\LogSys.Aplication.pdb

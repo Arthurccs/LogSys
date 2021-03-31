@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LogSys.Aplication/1.0.0": {
+        "dependencies": {
+          "LogSys.Domain": "1.0.0",
+          "LogSys.Persistence": "1.0.0"
+        },
+        "runtime": {
+          "LogSys.Aplication.dll": {}
+        }
+      },
+      "LogSys.Domain/1.0.0": {
+        "runtime": {
+          "LogSys.Domain.dll": {}
+        }
+      },
+      "LogSys.Persistence/1.0.0": {
+        "dependencies": {
+          "LogSys.Domain": "1.0.0"
+        },
+        "runtime": {
+          "LogSys.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogSys.Aplication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogSys.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LogSys.Persistence/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
