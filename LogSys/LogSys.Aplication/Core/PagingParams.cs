@@ -2,6 +2,9 @@
 
 namespace LogSys.Aplication.Core
 {
+	/// <summary>
+	/// Params 4 paginator defaul pagesize 10 max 50
+	/// </summary>
 	public class PagingParams
 	{
 		private const int MaxPageSize = 50;

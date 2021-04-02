@@ -9,6 +9,12 @@ namespace LogSys.WepApi.Controllers
 	public class LogsController : BaseApiController
 	{
 		
+		[HttpPost]
+		[Route("logs")]
+		public async Task<IActionResult> CreateLog(Log log)
+		{
+			return Ok(await Mediator.Send(new Create.command { Log = log }));
+		}
 
 		[HttpGet]
 		[Route("logs")]

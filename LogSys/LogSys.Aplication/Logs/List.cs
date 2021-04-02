@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LogSys.Aplication.Logs
 {
 	/// <summary>
-	/// 
+	/// To get Logs
 	/// </summary>
 	public class List
 	{

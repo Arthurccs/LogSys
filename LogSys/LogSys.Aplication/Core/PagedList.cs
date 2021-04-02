@@ -6,6 +6,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LogSys.Aplication.Core
 {
+
+    /// <summary>
+    /// generic paginator
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class PagedList<T> : List<T>
     {
         public int CurrentPage { get; set; }
