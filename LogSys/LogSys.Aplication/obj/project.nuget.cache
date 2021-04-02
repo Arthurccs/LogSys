@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Jko6V9EgjMYCjyAB1KgazJJSbdbSorAcT49q2e9v5+TthInhYUEp7z6Zg/eT2uDckZmzh0hBTPLFpA7YF07htA==",
+  "dgSpecHash": "kXtEQkehcxYUHG+qqjfpTLoQuZlawMDaMuAYgYDmHJMxkxHMFuUt1MTIdw3xWeSSGYEfT5aNQjFUsbD2OwxP4w==",
   "success": true,
   "projectFilePath": "C:\\Users\\10061118\\source\\repos\\LogSys\\LogSys\\LogSys.Aplication\\LogSys.Aplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\10061118\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\10061118\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\9.0.0\\mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512",
     "C:\\Users\\10061118\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\10061118\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

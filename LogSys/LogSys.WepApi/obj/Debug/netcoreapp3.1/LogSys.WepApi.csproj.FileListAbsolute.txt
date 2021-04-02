@@ -69,3 +69,5 @@ C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Users\10061118\source\repos\LogSys\LogSys\LogSys.WepApi\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
