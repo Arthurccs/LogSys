@@ -1,4 +1,5 @@
-﻿using LogSys.Aplication.Logs;
+﻿using LogSys.Aplication.DTOs;
+using LogSys.Aplication.Logs;
 using LogSys.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -11,9 +12,9 @@ namespace LogSys.WepApi.Controllers
 		
 		[HttpPost]
 		[Route("logs")]
-		public async Task<IActionResult> CreateLog(Log log)
+		public async Task<IActionResult> CreateLog(CreateLogDto logDto)
 		{
-			return Ok(await Mediator.Send(new Create.command { Log = log }));
+			return Ok(await Mediator.Send(new Create.command { LogDto = logDto }));
 		}
 
 		[HttpGet]

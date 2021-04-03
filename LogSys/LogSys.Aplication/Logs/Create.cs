@@ -1,6 +1,8 @@
-﻿using LogSys.Domain;
+﻿using LogSys.Aplication.DTOs;
+using LogSys.Domain;
 using LogSys.Persistence;
 using MediatR;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -13,7 +15,7 @@ namespace LogSys.Aplication.Logs
 	{
 		public class command : IRequest
 		{
-			public Log Log { get; set; }
+			public CreateLogDto LogDto { get; set; }
 		}
 		public class Handler : IRequestHandler<command>
 		{
@@ -26,7 +28,16 @@ namespace LogSys.Aplication.Logs
 
 			public async Task<Unit> Handle(command request, CancellationToken cancellationToken)
 			{
-				_context.Logs.Add(request.Log);
+				var log = new Log()
+				{
+					Datetimecreation = DateTime.Now,
+					Id = Guid.NewGuid(),
+					Level = request.LogDto?.Level,
+					Message = request.LogDto?.Message,
+					Title = request.LogDto?.Title,
+					Userid = request.LogDto?.Userid			
+				};
+				_context.Logs.Add(log);
 				await _context.SaveChangesAsync();
 				return Unit.Value;
 			}
