@@ -2,6 +2,7 @@
 using LogSys.Domain;
 using LogSys.Persistence;
 using MediatR;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
@@ -20,14 +21,17 @@ namespace LogSys.Aplication.Logs
 		public class Handler : IRequestHandler<command>
 		{
 			private readonly DataContext _context;
+			private readonly ILogger<Create> _logger;
 
-			public Handler(DataContext context)
+			public Handler(DataContext context, ILogger<Create>logger)
 			{
 				_context = context;
+				_logger = logger;
 			}
 
 			public async Task<Unit> Handle(command request, CancellationToken cancellationToken)
 			{
+				_logger.LogInformation("Adding new log");
 				var log = new Log()
 				{
 					Datetimecreation = DateTime.Now,
