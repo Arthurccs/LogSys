@@ -9,6 +9,7 @@ namespace LogSys.WepApi.Controllers
 {
 	public class LogsController : BaseApiController
 	{
+
 		
 		[HttpPost]
 		[Route("logs")]
@@ -20,18 +21,31 @@ namespace LogSys.WepApi.Controllers
 		[HttpGet]
 		[Route("logs")]
 
-		public async Task<ActionResult<List<Log>>> GetLogs()
+		public async Task<ActionResult> GetLogs([FromQuery] LogParams param)
 		{
-			return await Mediator.Send(new List.Query());
+			switch (param?.ColumnValue?.ToLower())
+			{
+				case "title":
+				case "level":
+				case "message":
+				case "userid":	
+				{
+					return HandlePagedResult(await Mediator.Send(new List.Query1 { Params = param }));
+
+				}
+				default:
+				{
+					return HandlePagedResult(await Mediator.Send(new List.Query { Params = param }));
+				}
+			}
 		}
 
 		[HttpGet]
-		[Route("User/{userid}/GetReport/{from}/{to}")]
+		[Route("User/{userid}/GetReport")]
 
-		public int GetReport([FromRoute]string userid, [FromRoute]string from, [FromRoute]string to)
+		public async Task<IActionResult> GetReport([FromRoute]string userid, [FromQuery] LogReportParams param)
 		{
-			//return _context.Logs.Where(x => x.Userid == userid).Count();
-			return 5;
+			return HandleResult(await Mediator.Send(new List.Query2 { reportParams = param, userId = userid }));
 		}
 
 	}
